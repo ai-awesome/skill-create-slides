@@ -11,20 +11,20 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that creat
 Clone this repository:
 
 ```sh
-git clone https://github.com/ai-awesome/create-slides.git
+git clone https://github.com/ai-awesome/skill-create-slides.git
 ```
 
 Then symlink the skill into your Claude global config directory:
 
 ```sh
 mkdir -p ~/.claude/skills/create-slides
-ln -sf "$(pwd)/create-slides/SKILL.md" ~/.claude/skills/create-slides/SKILL.md
+ln -sf "$(pwd)/skill-create-slides/SKILL.md" ~/.claude/skills/create-slides/SKILL.md
 ```
 
 Or add directly as a submodule in your dotfiles:
 
 ```sh
-git submodule add https://github.com/ai-awesome/create-slides.git ~/.claude/skills/create-slides
+git submodule add https://github.com/ai-awesome/skill-create-slides.git ~/.claude/skills/create-slides
 ```
 
 ## Customization
